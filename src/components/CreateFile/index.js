@@ -109,7 +109,7 @@ const CreateFile = ({ currentFolder }) => {
             <Form.Group controlId="formBasicFolderName" className="my-2">
               <Form.Control
                 type="text"
-                placeholder="eg. index.html, index.js, index.php, index.txt"
+                placeholder="eg. file.pdf"
                 value={file}
                 onChange={(e) => setFile(e.target.value)}
               />
